@@ -38,10 +38,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6863928E3091E81400704214 /* Exceptions for "CallDirectoryExtension" folder in "CallDirectoryRepro" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				README.md,
+			);
+			target = 000000000000000100000000 /* CallDirectoryRepro */;
+		};
 		68EFC4373090D56C00F889E8 /* Exceptions for "CallDirectoryExtension" folder in "CallDirectoryExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
+				README.md,
 			);
 			target = 68EFC42B3090D56C00F889E8 /* CallDirectoryExtension */;
 		};
@@ -56,6 +64,7 @@
 		68EFC42D3090D56C00F889E8 /* CallDirectoryExtension */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
+				6863928E3091E81400704214 /* Exceptions for "CallDirectoryExtension" folder in "CallDirectoryRepro" target */,
 				68EFC4373090D56C00F889E8 /* Exceptions for "CallDirectoryExtension" folder in "CallDirectoryExtension" target */,
 			);
 			path = CallDirectoryExtension;
